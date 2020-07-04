@@ -49,7 +49,6 @@
         this.dialog = false
       },
       showAlert: function () {
-//        tools.alert('这是一个弹框', 'success');
         this.tools.alert('这是一个弹框', 'success');
       },
       showLoadingFn: function () {
