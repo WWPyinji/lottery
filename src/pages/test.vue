@@ -63,9 +63,9 @@
           'sex': '男'
         };
         this.httpService.getJoke(data, function (response) {
-          console.log("成功：" + JSON.stringify(response));
+          console.log("成功： " + JSON.stringify(response));
         }, function (error) {
-          console.log("失败：" + JSON.stringify(error));
+          console.log("失败： " + JSON.stringify(error));
         })
       }
     }
